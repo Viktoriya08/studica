@@ -1,0 +1,18 @@
+.favorit{
+    display: flex;
+    align-items: center;
+    & .favorit__icon{
+        width: 18px;
+        height: 18px;
+        margin-right: 10px;
+        & svg{
+            width: 100%;
+            height: 100%;
+            fill: #A7A7A7;
+        }
+    }
+    & .favorit__count{
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

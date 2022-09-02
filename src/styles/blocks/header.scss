@@ -1,0 +1,10 @@
+.header{
+    min-width: 64px;
+    padding: 16px 0;
+    & .container-h{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+}

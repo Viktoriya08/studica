@@ -1,0 +1,48 @@
+@@include('includes/header.html', { 'title' : 'New Project' })
+
+<header class="header">
+  <div class="container-h">
+    <button class="burger"><span></span></button>
+
+    <div class="logo">
+      <a href="#">
+        <img src="images/logo.svg" alt="Логотип Студика">
+      </a>
+    </div>
+
+    <a class="favorit">
+      <div class="favorit__icon"><!-- fill="#A7A7A7" -->
+        <svg width="19" height="18" viewBox="0 0 19 18">
+          <use xlink:href="svg-sprite/svg-sprite.svg#favorit"></use>
+        </svg>
+      </div>
+      <span class="favorit__count">0</span>
+    </a>
+  </div>
+
+  <div class="mobile-menu open">
+    <div class="mobile-menu__content">
+      <button class="mobile-menu__btn"></button>
+
+      <button class="mobile-menu__pa">Войти</button>
+
+      <button class="mobile-menu__city btn-city">
+        <span>Город или регион</span>
+        <span>Любой регион</span>
+      </button>
+
+
+    </div>
+
+  </div>
+
+</header>
+
+<div class="main-wrapp">
+
+
+
+</div>
+
+
+@@include('includes/footer.html')
